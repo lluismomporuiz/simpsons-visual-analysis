@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+
+# Course material and reports (not part of the repo)
+reports/
+*.zip
+
+# Dialogue data: large, third-party content. Place it locally to run the scripts dashboard.
+data/simpsons-script-lines-clean.csv
+notebooks/assignment_2_report.ipynb
