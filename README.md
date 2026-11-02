@@ -61,7 +61,7 @@ steps, and the reasoning behind every chart (marks, encodings, colour scales), i
 .streamlit/  Streamlit configuration (light theme)
 data/        cleaned episode data (script lines not included, see data/README.md)
 images/      dashboard screenshots
-notebooks/   course reports: cleaning steps and design rationale
+notebooks/   assignment 1 report: cleaning steps and design rationale
 src/         ratings_dashboard.py, scripts_dashboard.py (Streamlit apps)
 ```
 
@@ -87,10 +87,10 @@ light theme, which the charts are designed for.
 
 ## Notes
 
-- The notebooks' chart outputs are interactive Vega HTML, which GitHub does not render. Open them locally
+- The notebook's chart outputs are interactive Vega HTML, which GitHub does not render. Open it locally
   in Jupyter or VS Code to see the charts.
-- To keep the page light, the scripts dashboard sends the browser only the top 20 words/sentences per
-  character (and per episode), which is all the charts ever display.
+- The assignment 2 notebook is not included: its embedded chart data makes it 130+ MB, above GitHub's
+  100 MB file limit. The scripts dashboard in `src/` contains the same code.
 
 ## Author
 

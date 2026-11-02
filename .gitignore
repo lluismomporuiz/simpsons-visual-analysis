@@ -12,4 +12,6 @@ reports/
 
 # Dialogue data: large, third-party content. Place it locally to run the scripts dashboard.
 data/simpsons-script-lines-clean.csv
+
+# Too large for GitHub (130+ MB of embedded chart data)
 notebooks/assignment_2_report.ipynb
